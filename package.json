@@ -1,0 +1,21 @@
+{
+  "name": "izabot-backend",
+  "version": "0.0.1",
+  "description": "Bot dla Izabeli Kujawy Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Krzysztof Rozbicki Pogbit",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
